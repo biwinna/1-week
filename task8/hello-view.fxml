@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.HelloController">
+   <children>
+      <Canvas fx:id="canvas" height="400.0" layoutY="10.0" width="400.0" AnchorPane.bottomAnchor="290.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="10.0" />
+      <Label layoutX="415.0" layoutY="14.0" text="Направление Х" />
+      <TextField fx:id="text_directionX" layoutX="509.0" layoutY="10.0" />
+      <Label layoutX="415.0" layoutY="44.0" text="Направление Y" />
+      <TextField fx:id="text_directionY" layoutX="509.0" layoutY="40.0" />
+      <TextField fx:id="text_size" layoutX="509.0" layoutY="118.0" />
+      <Label layoutX="415.0" layoutY="122.0" text="Размер" />
+      <Button fx:id="buttonRedraw" layoutX="583.0" layoutY="155.0" mnemonicParsing="false" onAction="#buttonRedraw_clck" text="нарисовать" />
+   </children>
+</AnchorPane>
